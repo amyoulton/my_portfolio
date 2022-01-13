@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  padding: 40px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #006D77;
+}
+
+.nav-link:hover {
+  color: #006D77;
+}
+
+.nav-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+
+.main {
+  max-width: 1000px;
+}
+
+.main-header{
+  padding-top: 160px;
+  padding-left: 80px;
+}
+
+.main-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 90px;
+}
+
+.main-heading--emphasis {
+  font-weight: 400;
+  color: #006D77;
+}
+
+.main-para {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  padding-left: 80px;
+}
+
+.main-arrow {
+  transform: matrix(-0.51, -0.86, -0.86, 0.51, 0, 0);
+  opacity: 60%;
+  width: 400px;
+  height: 300px;
+  left: 160px;
+}
+
+.main-socials-cont {
+  border-top: 4px solid #006D77;
+  width: 900px;
+  margin-right: -40px;
+  padding: 40px;
+}
+
+.skills-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #EDF6F9;
+  font-size: 300px;
+  margin-left: -60px;
+}
+
+.skills-cont {
+  top:0;
+  right:0;
+}
+
+.skills-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.skills-group-random {
+  list-style: none;
+  text-align: end;
+}
+
+.skills-group-dev {
+  list-style: none;
+  text-align: start;
+}
+
+.work-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #EDF6F9;
+  font-size: 300px;
+  margin-right: -60px;
+}
+
+.about-cont {
+  margin-top: 200px;
+}
+
+.about-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #EDF6F9;
+  font-size: 300px;
+  margin-left: -60px;
+}
+
+.about-text {
+  padding-left: 80px;
+  font-family: 'Roboto', sans-serif;
+  max-width: 60%;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.contact-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #EDF6F9;
+  font-size: 300px;
+  margin-right: -60px;
+}
+
+.contact-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: black;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+}
+
+.logo:hover {
+  opacity: 85%;
+}
+
+.logo--skills {
+  height: 40px;
+}
+
+.avatar {
+  width: 600px;
+  right: -120px;
+  top: 20px;
+}
+
+.btn {
+  padding: 16px 24px;
+  background-color: #83C5BE;
+  border-radius: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+.trivia-btn{
+  top: 180px;
+  left: 60px;
+}
+
+.codecast-btn {
+  top: 180px;
+  left: 260px;
+}
+
+.tutorial-btn{
+  bottom: -180px;
+  left: 170px;
+}
+
+.trivia-arrow {
+  height: 90px;
+  transform: matrix(0.92, -0.4, -0.4, -0.92, 0, 0);
+  top: 70px;
+  left: 100px;
+}
+
+.codecast-arrow {
+  height: 80px;
+  top: 250px;
+  left: 180px;
+}
+
+.tutorial-arrow {
+  height: 130px;
+  right: 20px;
+  bottom: -10px;
+  transform: rotate(-47.58deg);
+}
+
+.tutorial-btn-arrow {
+  height: 130px;
+  right: -170px;
+  bottom: -150px;
+  transform: matrix(-0.73, -0.68, -0.68, 0.73, 0, 0);
+}
+
+.trivia-text {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+  width: 300px;
+  left: 280px;
+}
+
+.codecast-text {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+  width: 300px;
+  left: 100px;
+  top: 330px;
+}
+
+.tutorial-text {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 22px;
+  width: 300px;
+  right:-10px;
+  bottom: -130px;
+}
+
+.iframe-cont {
+  position: relative;
+  overflow: hidden;
+  width: 60%;
+  padding-top: 35%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.small-show {
+  display: none !important;
+}
+
+.typing-wrapper {
+  display: inline-flex;
+}
+
+.typed-out {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 2s steps(32, end) forwards;
+}
+
+.cursor {
+  margin-left: 5px;
+  width: 5px;
+  background: transparent;
+  animation: blink 0.9s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { background: transparent;}
+  50% { background: black}
+}
+
+@media screen and (max-width: 1300px) {
+  .avatar {
+    width: 500px;
+  }
+
+  .resp-heading {
+    font-size: 250px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+
+  .resp-heading{
+    font-size: 200px;
+  }
+
+  .resp-text {
+    font-size: 24px;
+  }
+
+  .marker-resp {
+    left: 80px;
+  }
+
+  .trivia-text {
+    top: -40px;
+  }
+  
+  .resp-positioning {
+    margin-top: 260px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .avatar {
+    top: -100px;
+    width: 400px;
+  }
+
+  
+  .resp-heading {
+    font-size: 150px;
+  }
+
+  .about-text {
+    padding-top: 140px;
+    max-width: 90%;
+  }
+
+  .work-heading {
+    padding-top: 60px;
+  }
+  
+  .small-hide {
+    display: none;
+  }
+
+  .small-show {
+    display: flex !important;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    margin: 0px 12px;
+  }
+  .iframe-cont {
+    width: 100%;
+    padding-top: 60%;
+  }
+
+  .resp-positioning {
+    margin-top: 20px;
+  }
+
+  .about-cont {
+    margin-top: 110px;
+  }
+
+  .flip-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-heading {
+    font-size: 60px;
+  }
+
+  .main-para {
+    padding-left: 40px;
+  }
+
+  .main-arrow {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  #skills {
+    min-height: 400px;
+  }
+
+  .skills-cont{
+    margin-top: 200px;
+  }
+  
+  .avatar {
+    width: 380px;
+  }
+
+  .flip-flex--btns {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+
+  .avatar {
+    display: none;
+  }
+  
+  .about-text {
+    padding-left: 0px;
+    padding-top: 20px;
+    max-width: 100%;
+  }
+
+  .resp-heading {
+    padding-top: 0px;
+  }
+
+  .work-heading {
+    padding-top: 50px;
+  }
+
+  .about-cont{ 
+    margin-top: 80px;
+  }
+
+  .main-header{
+    padding-left: 0px;
+  }
+
+  .main-arrow {
+    left: 60px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .resp-text {
+    font-size: 18px;
+  }
+
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-text {
+    font-size: 20px;
+  }
+
+  .about-cont {
+    margin-top: 30px;
+  }
+
+  .work-heading {
+    margin-top: 60px;
+  }
+
+  .resp-heading{
+    padding-top: 20px;
+    font-size: 100px;
+  }
+
+  .main-arrow {
+    width: 200px;
+    height: auto;
+    top: 120px;
+  }
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand py-0">
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#about" class="nav-link nav-text py-0">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link nav-text py-0">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#works" class="nav-link nav-text py-0">Works</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link nav-text py-0">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="main">
+    <img src="assets/Arrow5.png" alt="main-arrow" class="position-absolute main-arrow">
+    <div class="main main-header">
+      <h1 class="main-heading">Hello.</h1>
+      <div class="typing-wrapper">
+        <div class="main-heading typed-out">I am <span class="main-heading--emphasis">Amy Oulton</span>.</div>
+        <div class="cursor"></div>
+      </div>
+      <h3 class="main-para resp-text mb-4">An artist turned web-developer from Vancouver, BC. I love working on the
+        front-end
+        and
+        making beautiful
+        designs come to life. </h3>
+    </div>
+    <section id="socials" class="d-flex justify-content-end mb-5">
+      <div class="main-socials-cont d-flex justify-content-end">
+        <a href="#">
+          <img src="assets/black-instagram.svg" alt="instagram" class="logo mx-2">
+        </a>
+        <a href="https://twitter.com/amyeoulton" target="_blank">
+          <img src="assets/twitter.svg" alt="twitter" class="logo mx-2">
+        </a>
+        <a href="#">
+          <img src="assets/dev-community.svg" alt="dev" class="logo mx-2">
+        </a>
+        <a href="#">
+          <img src="assets/github.svg" alt="github" class="logo mx-2">
+        </a>
+        <a href="#">
+          <img src="assets/linkedin-square.svg" alt="linkedin" class="logo mx-2">
+        </a>
+      </div>
+    </section>
+    <section id="skills" class="position-relative mb-5">
+      <h1 class="skills-heading resp-heading">Skills</h1>
+      <div class="d-flex position-absolute skills-cont">
+        <ul class="skills-group-random skills-text resp-text">
+          <img src="assets/man-working.svg" alt="man-working" class="logo--skills mb-2">
+          <li>Writing</li>
+          <li>Illustration</li>
+          <li>Social Media</li>
+          <li>Communication</li>
+          <li>Content Creation</li>
+          <li>Team Management</li>
+        </ul>
+        <ul class="skills-group-dev skills-text resp-text">
+          <img src="assets/dev.svg" alt="dev" class="logo--skills mb-2">
+          <li>Git</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Postgresql</li>
+          <li>Ruby on Rails</li>
+        </ul>
+      </div>
+    </section>
+  </section>
+  <section id="works">
+    <div class="position-relative d-flex justify-content-between">
+      <div class="small-hide">
+        <img src="assets/Arrow1.png" alt="trivia arrow" class="position-absolute trivia-arrow">
+        <a href="https://amyoulton.github.io/api-trivia-game/" target="_blank">
+          <div class="btn trivia-btn position-absolute">Trivia Game</div>
+        </a>
+        <span class="position-absolute trivia-text marker-resp">I created this from scratch! You can find the series of
+          tutorials on
+          it here.</span>
+        <img src="assets/Arrow2.png" alt="codecast arrow" class="position-absolute codecast-arrow">
+        <div class="btn codecast-btn position-absolute">CodeCast</div>
+        <span class="position-absolute codecast-text marker-resp">Built out the designs made by our designer during my
+          internship
+          with CodeCast on
+          webflow!</span>
+      </div>
+      <div></div>
+      <h1 class="work-heading resp-heading">Work</h1>
+    </div>
+    <div class="d-flex justify-content-end resp-positioning">
+      <div class="position-relative small-hide">
+        <img src="assets/Arrow3.png" alt="tutorial-arrow" class="position-absolute tutorial-arrow">
+        <span class="position-absolute tutorial-text">An example of one of the coding tutorials I created on CodeCast!
+        </span>
+        <img src="assets/Arrow5.png" alt="tutorial-btn-arrow" class="position-absolute tutorial-btn-arrow">
+        <div class="btn position-absolute tutorial-btn text-nowrap">Check Out All My Tutorials</div>
+
+      </div>
+      <div class="iframe-cont">
+        <iframe style="display: none;"
+          src='https://play.codecast.io/embed_cast/PbwpyNEoQG0l-build-a-discord-bot-w-discord-js-part-1-setting-it-up'
+          class="responsive-iframe"></iframe>
+      </div>
+    </div>
+    <div class="d-flex flex-column align-items-center mt-4 small-show">
+      <h3 class="skills-text resp-text mb-3">Check out more of my work here:</h3>
+      <div class="d-flex flip-flex--btns">
+        <div class="btn mb-2">CodeCast</div>
+        <div class="btn mb-2">Trivia Game</div>
+        <div class="btn mb-2">Tutorials</div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about-cont position-relative mb-5">
+    <h1 class="about-heading resp-heading">About</h1>
+    <img src="assets/Me.png" alt="profile image" class="position-absolute avatar">
+    <p class="about-text resp-text">
+      After over ten years of working in retail I decided I needed a new career. I have always been creative, doing
+      visual art most of my life and having previously earned an Associates Degree of Creative Writing at Capilano
+      University.
+      <br />
+      <br />
+      Still, I had yet to find the career path that sparked interest for me. In January of 2020, I decided to look into
+      careers in the tech world, and ended up undergoing a coding bootcamp in the Spring of 2020.
+      <br />
+      <br />
+      In November of the same year, I got my first internship as a developer at CodeCast, and now work there fulltime as
+      a developer and content creator!
+      <br />
+      <br />
+      I am also extremely passionate about dogs, and could talk about TV and music forever!
+
+    </p>
+  </section>
+  <section id="contact" class="my-5">
+    <div class="d-flex justify-content-end mb-4">
+      <h1 class="contact-heading resp-heading">Contact</h1>
+    </div>
+    <div class="d-flex justify-content-between flip-flex">
+      <a href="mailto:amy@codecast.io" class="d-flex align-items-center mb-3">
+        <img src="assets/email.svg" alt="email icon" class="logo me-4">
+        <h3 class="contact-text resp-text mb-0">amy@codecast.io</h3>
+      </a>
+      <div class="d-flex justify-content-end">
+        <a href="#">
+          <img src="assets/black-instagram.svg" alt="instagram" class="logo mx-2">
+        </a>
+        <a href="#">
+          <img src="assets/twitter.svg" alt="twitter" class="logo mx-2">
+        </a>
+        <a href="#">
+          <img src="assets/dev-community.svg" alt="dev" class="logo mx-2">
+        </a>
+        <a href="#">
+          <img src="assets/github.svg" alt="github" class="logo mx-2">
+        </a>
+        <a href="#">
+          <img src="assets/linkedin-square.svg" alt="linkedin" class="logo mx-2">
+        </a>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
